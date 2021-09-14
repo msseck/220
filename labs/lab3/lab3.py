@@ -9,12 +9,12 @@ I certify that this assignment is entirely my own work.
 
 def average():
     total_grades = eval(input("How many grades do you have?:"))
-    sum = 0
+    sum_total = 0
     for i in range(total_grades):
         message = "What is your grade for HW" + str(i+1) + ":"
         hwgrade = eval(input(message))
-        sum = hwgrade + sum
-    average_grade = sum / total_grades
+        sum_total = hwgrade + sum_total
+    average_grade = sum_total / total_grades
     print("The average is:", average_grade)
 
 
@@ -22,15 +22,17 @@ average()
 
 
 def tip_jar():
-    sum = 0
+    sum_total = 0
     for i in range(5):
-       jar_pass = "How much did you donate?:"
-       donation = eval(input(jar_pass))
-       sum = donation + sum
-    total = sum
+        jar_pass = "How much did you donate?:"
+        donation = eval(input(jar_pass))
+        sum_total = donation + sum_total
+    total = sum_total
     print("The total amount of the tip jar is:", total)
 
+
 tip_jar()
+
 
 def newton():
     number_x = eval(input("What is the number x?: "))
@@ -43,6 +45,7 @@ def newton():
 
 newton()
 
+
 def sequence():
     num_of_terms = eval(input("What is the number of terms in a series?:"))
     denom = 1
@@ -51,10 +54,8 @@ def sequence():
         print(denom, end="  ")
 
 
-
-
-
 sequence()
+
 
 def pi():
     num_of_terms = eval(input("What is the number of terms in a series?:"))
@@ -68,10 +69,8 @@ def pi():
         print(numer)
 
         total = total * numer / denom
-    #total *
-    print("Your approximation of pi is:", total *2 )
+
+    print("Your approximation of pi is:", total * 2)
+
 
 pi()
-
-
-
