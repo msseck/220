@@ -74,11 +74,11 @@ def word_average():
 
 
 def main():
-    # name_reverse()
-    # company_name()
-    # initial()
-    # names()
-    # thirds()
+    name_reverse()
+    company_name()
+    initial()
+    names()
+    thirds()
     word_average()
 
 
