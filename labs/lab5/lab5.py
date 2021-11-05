@@ -132,9 +132,9 @@ def process_string():
 
 
 def main():
-    triangle()
+    #triangle()
     color_shape()
-    process_string()
+    #process_string()
 
     pass
 
