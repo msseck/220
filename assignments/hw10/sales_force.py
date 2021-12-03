@@ -52,16 +52,16 @@ class SalesForce:
         return None
 
 
-# def main():
-#     sales = SalesForce()
-#     sales.add_data("salesData.txt")
-#     quota_sales = sales.quota_report(900)
-#     print(quota_sales)
-#     print("top seller(s): ")
-#     seller_list = sales.top_seller()
-#     for i in seller_list:
-#         print(i)
-#     sales.individual_sales(123)
-#
-#
-# main()
+def main():
+    sales = SalesForce()
+    sales.add_data("salesData.txt")
+    quota_sales = sales.quota_report(900)
+    print(quota_sales)
+    print("top seller(s): ")
+    seller_list = sales.top_seller()
+    for i in seller_list:
+        print(i)
+    sales.individual_sales(123)
+
+
+main()
